@@ -9,7 +9,9 @@ PROJECT="$ROOT"/"$1"
 mkdir "$PROJECT"
 (cd "$PROJECT"; 
  dotnet new console; 
- git init; 
  echo "$ROOT"/gitignore > .gitignore; 
  git add -A; 
- git commit -m 'Add dotnet-new console project "$1"')
+ cd "$ROOT"
+ dotnet sln add "$PROJECT"/"$1".csproj
+ git add CSSandbox.sln
+ git commit -m "Add dotnet-new console project \"$1\"")
