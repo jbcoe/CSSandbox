@@ -8,8 +8,8 @@ namespace IfDemo
         {
             int Rachel = 20;
             int Robin = 26;
-            int Stacey = 54;
-            int Jesse = 60;
+            //int Stacey = 54;
+            //int Jesse = 60;
 
             if(Rachel>18){
                 Console.WriteLine("Rachel can vote.");
