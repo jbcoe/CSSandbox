@@ -12,4 +12,4 @@ mkdir "$PROJECT"
  git init; 
  echo "$ROOT"/gitignore > .gitignore; 
  git add -A; 
- git commit -m 'Init')
+ git commit -m 'Add dotnet-new console project "$1"')
