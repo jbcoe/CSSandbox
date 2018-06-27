@@ -12,8 +12,6 @@ namespace VariablesDemo
             var myName = "Jonathan Coe";
 
             Console.WriteLine($"my age: {myAge}, x:{x}, myHourlyRate:{myHourlyRate}, myName:{myName}");
-
-            var myLambda = (int myAge, int x, double myHourlyRate, string myName) => Console.WriteLine($"my age: {myAge}, x:{x}, myHourlyRate:{myHourlyRate}, myName:{myName}");
         }
     }
 }
